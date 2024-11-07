@@ -16,7 +16,7 @@ Bu uygulama, kullanıcının bulunduğu konuma göre hava durumu bilgilerini gö
 1. Bu projeyi bilgisayarınıza klonlayın:
    ```sh
    git clone https://github.com/hamer1818/flutter_wheater_app.git
-   cd hava-durumu-uygulamasi
+   cd flutter_wheater_app
     ```
 2. Gerekli paketleri yükleyin:
    ```sh
@@ -47,7 +47,8 @@ This application shows the weather information according to the user's location 
 ### Installation and Usage
 1. Clone this project to your computer:
    ```sh
-   git clone https://github.com/hamer1818/flutter_wheater_app.git
+    git clone https://github.com/hamer1818/flutter_wheater_app.git
+    cd flutter_wheater_app
      ```
 2. Install the required packages:
     ```sh
