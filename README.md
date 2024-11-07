@@ -1,16 +1,63 @@
-# wheater_app
+# Hava Durumu Uygulaması / Weather App
 
-A new Flutter project.
+## Türkçe
 
-## Getting Started
+### Açıklama
+Bu uygulama, kullanıcının bulunduğu konuma göre hava durumu bilgilerini gösterir ve ayrıca kullanıcıların belirli bir konumu arayarak o konumun hava durumu bilgilerini öğrenmelerini sağlar.
 
-This project is a starting point for a Flutter application.
+### Kullanılan Teknolojiler
+- Flutter
+- Dart
+- HTTP
+- Geolocator
+- OpenWeatherMap API
 
-A few resources to get you started if this is your first Flutter project:
+### Kurulum ve Kullanım
+1. Bu projeyi bilgisayarınıza klonlayın:
+   ```sh
+   git clone https://github.com/hamer1818/flutter_wheater_app.git
+   cd hava-durumu-uygulamasi
+    ```
+2. Gerekli paketleri yükleyin:
+   ```sh
+   flutter pub get
+    ```
+3. lib/api_keys.dart dosyasını oluşturun ve API anahtarınızı ekleyin:
+    ```dart
+    const String apiKey = 'API_ANAHTARINIZ';
+    ```
+4. Uygulamayı çalıştırın:
+    ```sh
+    flutter run
+    ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## English
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Description
+
+This application shows the weather information according to the user's location and also allows users to search for the weather information of a specific location.
+
+### Technologies Used
+- Flutter
+- Dart
+- HTTP
+- Geolocator
+- OpenWeatherMap API
+
+### Installation and Usage
+1. Clone this project to your computer:
+   ```sh
+   git clone https://github.com/hamer1818/flutter_wheater_app.git
+     ```
+2. Install the required packages:
+    ```sh
+    flutter pub get
+      ```
+3. Create lib/api_keys.dart file and add your API key:
+    ```dart
+    const String apiKey = 'YOUR_API_KEY';
+    ```
+4. Run the application:
+    ```sh
+    flutter run
+    ```
